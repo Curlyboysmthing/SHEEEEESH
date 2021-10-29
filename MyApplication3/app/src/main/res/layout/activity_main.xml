@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="16dp">
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E91E64"
+            android:gravity="center"
+            android:text="Button"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#163cea"
+            android:text="Button"
+            android:textColor="#Ea161a" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#0BEEE0"
+                android:text="Button"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#0B38EE"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#E0EE0B"
+                android:text="Button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#E9A208"
+                android:text="Button"
+                android:textColor="#E91208" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#FF5D00"
+                android:text="Button"
+                android:textColor="#FFF300" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#FF4208"
+                android:text="Button"
+                android:textColor="#00FFE8" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
